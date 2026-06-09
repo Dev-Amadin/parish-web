@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #9e1b1b;
+  --color-primary-accent: #B22222;
+  --color-primary-dark: #7A1010;
+  --color-neutral: #FAF7F2;
+  --color-light-grey: #F2F0EC;
+  --color-cream-highlight: #FFF5EE;
+  --color-primary-text: #222222;
+  --color-secondary-text: #666666;
+  --color-gold-accent: #C8A96B;
+  --color-rose-accent: #D9A5A5;
+  --color-btn-primary: #9e1b1b;
+  --color-btn-primary-dark: #7a1010;
+  --color-btn-secondary: #f8ecec;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+}
+
+.bg-hero {
+  background-image: url('./assets/hero_bg.jpg');
+}
