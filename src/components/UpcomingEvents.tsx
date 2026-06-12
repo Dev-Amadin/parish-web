@@ -5,7 +5,7 @@ import { upcomingEvents } from "../data/data";
 function UpcomingEvents() {
   return (
     <div className="border-2 flex flex-col gap-3 border-neutral rounded-xl p-6 w-full h-full max-md:items-center">
-      <div className="flex justify-between text-primary ">
+      <div className="flex justify-between gap-2 text-primary ">
         <div className="flex gap-1 md:gap-2 max-md:items-center md:justify-center">
           <RxCalendar className="text-lg md:text-2xl" />
           <h2 className="text-xs md:text-lg font-semibold">UPCOMING EVENTS</h2>

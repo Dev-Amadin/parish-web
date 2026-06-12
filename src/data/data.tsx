@@ -4,16 +4,17 @@ import { GiJeweledChalice } from "react-icons/gi";
 import { GrGroup } from "react-icons/gr";
 import { MdOutlineHouse } from "react-icons/md";
 import { LuVideo } from "react-icons/lu";
+import { IoLocationSharp } from "react-icons/io5";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 
 export const navLinks = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#about" },
-  { name: "Mass & Sacraments", href: "#mass-sacraments" },
-  { name: "Ministries", href: "#ministries" },
+  { name: "Quick Actions", href: "#quick-actions" },
+  { name: "Mass & Events", href: "#masstimes-and-events" },
   { name: "Community", href: "#community" },
-  { name: "Events", href: "#events" },
-  { name: "Newsletters", href: "#newsletters" },
-  { name: "Hall-Hire", href: "#hall-hire" },
+  { name: "Newsletters", href: "#newsletter-and-support" },
   { name: "Contact", href: "#contact" },
 ];
 
@@ -91,4 +92,64 @@ export const upcomingEvents = [
     month: "JUN",
     day: "02",
   },
+];
+
+export const communityData = [
+  {
+    image: "src/assets/community1.jpg",
+    title: "Polish Community",
+    description:
+      "Serving the Polish Catholic community with Mass and pastoral care.",
+  },
+  {
+    image: "src/assets/community2.jpg",
+    title: "Syro Malabar Community",
+    description: "Growing together in faith and tradition.",
+  },
+  {
+    image: "src/assets/community3.jpg",
+    title: "Syro Malankara Community",
+    description: "United in the love of Christ and our heritage.",
+  },
+  {
+    image: "src/assets/community4.jpg",
+    title: "Filipino Community",
+    description: "Building faith, friendship and service together.",
+  },
+];
+
+export const contactLinks = [
+  {
+    icon: <IoLocationSharp />,
+    content: "2 Crawley Green Road, Luton. LU2 9BD",
+  },
+  {
+    icon: <FaPhoneAlt />,
+    content: "01582 661 443",
+  },
+  {
+    icon: <FaEnvelope />,
+    content: "parishoffice@holyghostparish.co.uk",
+  },
+  {
+    icon: <IoLocationSharp />,
+    content: "Get Directions",
+  },
+];
+
+export const quickLinks = [
+  "Mass Times",
+  "Sacraments",
+  "Ministries",
+  "Events",
+  "Newsletter",
+  "Hall Hire",
+];
+
+export const usefulLinks = [
+  "Diocese of Northampton",
+  "Catholic Church in England & Wales",
+  "Safeguarding",
+  "Privacy Policy",
+  "Accessibilty",
 ];

@@ -21,9 +21,7 @@ const WelcomeMessage = () => {
         <div className="md:col-span-2 order-last p-4 flex justify-center items-center lg:justify-start">
               <Button
               text="Learn More About Our Parish"
-              textColor="white"
-              bgColor="bg-primary"
-              hoverColor="bg-primary-dark"
+              type="primary"
               iconDirection="end"
             >
                 <CgArrowLongRight />

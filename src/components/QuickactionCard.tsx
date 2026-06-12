@@ -3,7 +3,7 @@ import React from "react";
 import { CgArrowLongRight } from "react-icons/cg";
 
 interface QuickactionCardProps {
-  // You can add props here if needed in the future
+    
   children: React.ReactNode;
   title: string;
   description: string;

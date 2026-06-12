@@ -27,9 +27,7 @@ function Navbar() {
                 <CiSearch className="text-2xl text-white" />
                 <Button
                   text="Donate"
-                  bgColor="bg-white"
-                  textColor="primary"
-                  hoverColor="bg-btn-secondary"
+                  type="donate"
                 >
                   <CiHeart />
                 </Button>
