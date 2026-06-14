@@ -5,7 +5,7 @@ import { quickActions } from "../data/data";
 
 const QuickActions = () => {
   return (
-    <div className="mx-8 my-10 px-10">
+    <div className="mx-8 my-10 px-8">
       <div className="flex flex-col items-center justify-center">
         <h3 className="text-2xl">I'M LOOKING FOR</h3>
         <div className="w-16 h-1 bg-primary mt-2"></div>

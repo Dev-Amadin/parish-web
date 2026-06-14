@@ -8,7 +8,7 @@ import { SiInstagram } from "react-icons/si";
 function Footer() {
   return (
     <>
-      <div className="mt-10 mb-0 px-10 bg-cream-highlight md:bg-primary">
+      <div className="mt-10 mb-0 px-8 bg-cream-highlight md:bg-primary">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
           <div className="max-md:border-b md:border-r-2 border-secondary-text md:border-rose-accent text-primary md:text-cream-highlight p-4">
             <h2 className="text-md font-semibold mb-2">CONTACT US</h2>

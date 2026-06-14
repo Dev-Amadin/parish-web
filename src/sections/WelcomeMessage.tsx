@@ -5,7 +5,7 @@ import { welcomeMessage } from "../data/data";
 
 const WelcomeMessage = () => {
   return (
-    <div className="mx-8 my-10 px-10">
+    <div className="mx-8 my-10 px-8">
       <div className="grid lg:grid-flow-col grid-rows-3 gap-4 bg-cream-highlight p-2 rounded-xl ">
         <div className="md:row-span-3 bg-cover bg-center w-auto h-full lg:w-xl bg-[url(./assets/welcome_bg.jpg)] rounded-xl"></div>
         <div className="md:col-span-2 row-span-2 max-lg:order-first p-4">

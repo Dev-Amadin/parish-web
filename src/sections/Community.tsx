@@ -3,7 +3,7 @@ import { communityData } from "../data/data";
 
 function Community() {
   return (
-    <div className="my-10 px-10 bg-cream-highlight">
+    <div className="my-10 px-8 bg-cream-highlight">
       <div className="p-4">
         <div className="flex flex-col mt-4 items-center">
           <h2 className="text-lg font-bold text-primary">
