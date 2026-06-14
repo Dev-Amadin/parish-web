@@ -9,8 +9,8 @@ function Hero() {
   return (
     <div className="bg-hero bg-cover bg-center h-fit flex justify-center sm:justify-start">
       <div className="mx-8 mt-10 md:mt-20 mb-10 px-10 w-full">
-        <div className="flex flex-col gap-6 md:w-3/5 backdrop-blur-xs p-8 rounded">
-          <div className="flex-1 text-center md:text-left">
+        <div className="flex flex-col gap-6 xl:w-3/5 backdrop-blur-xs p-8 rounded">
+          <div className="flex-1 text-center xl:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-wide md:leading-16 text-balance sm:text-pretty">
               Serving all with justice, peace and love
             </h1>
