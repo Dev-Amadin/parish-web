@@ -29,7 +29,7 @@ function App() {
         <div className="fixed bottom-0 right-0 m-5 md:m-10">
           <a
             href="#home"
-            className="flex items-center justify-center w-8 h-8  md:w-15 md:h-15 bg-primary hover:bg-primary-dark 
+            className="flex items-center justify-center w-12 h-12  md:w-15 md:h-15 bg-primary hover:bg-primary-dark 
           border border-btn-secondary cursor-pointer text-white rounded-full "
           >
             <svg
