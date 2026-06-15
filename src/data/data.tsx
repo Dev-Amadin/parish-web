@@ -7,6 +7,10 @@ import { LuVideo } from "react-icons/lu";
 import { IoLocationSharp } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
+import community1Img from "../assets/community1.jpg";
+import community2Img from "../assets/community2.jpg";
+import community3Img from "../assets/community3.jpg";
+import community4Img from "../assets/community4.jpg";
 
 export const navLinks = [
   { name: "Home", href: "#home" },
@@ -96,23 +100,23 @@ export const upcomingEvents = [
 
 export const communityData = [
   {
-    image: "src/assets/community1.jpg",
+    image: community1Img,
     title: "Polish Community",
     description:
       "Serving the Polish Catholic community with Mass and pastoral care.",
   },
   {
-    image: "src/assets/community2.jpg",
+    image: community2Img,
     title: "Syro Malabar Community",
     description: "Growing together in faith and tradition.",
   },
   {
-    image: "src/assets/community3.jpg",
+    image: community3Img,
     title: "Syro Malankara Community",
     description: "United in the love of Christ and our heritage.",
   },
   {
-    image: "src/assets/community4.jpg",
+    image: community4Img,
     title: "Filipino Community",
     description: "Building faith, friendship and service together.",
   },

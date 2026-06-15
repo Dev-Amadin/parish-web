@@ -1,6 +1,7 @@
 import { CgArrowLongRight } from "react-icons/cg";
 import { RiNewspaperLine } from "react-icons/ri";
 import Button from "./Button";
+import newsLetterImg from "../assets/newsletter.svg";
 
 function NewsletterCard() {
   return (
@@ -25,7 +26,7 @@ function NewsletterCard() {
 
         <img
           className="w-full h-full object-cover"
-          src="src/assets/newsletter.svg"
+          src={newsLetterImg}
           alt=""
         />
         </div>
